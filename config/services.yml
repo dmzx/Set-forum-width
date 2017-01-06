@@ -1,0 +1,10 @@
+services:
+    dmzx.setforumwidth.listener:
+        class: dmzx\setforumwidth\event\listener
+        arguments:
+            - '@request'
+            - '@template'
+            - '@user'
+            - '@language'
+        tags:
+            - { name: event.listener }
