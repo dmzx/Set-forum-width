@@ -3,9 +3,13 @@
 	"type": "phpbb-extension",
 	"description": "With this extension you can set forum width in ucp in pixels.",
 	"homepage": "http://www.dmzx-web.net",
-	"version": "1.0.0",
-	"time": "2017-01-04",
-	"keywords": ["phpbb", "extension", "Set forum width"],
+	"version": "1.0.1",
+	"time": "2017-03-01",
+	"keywords": [
+		"phpbb",
+		"extension",
+		"Set forum width"
+	],
 	"license": "GPL-2.0",
 	"authors": [
 		{
@@ -16,7 +20,8 @@
 		}
 	],
 	"require": {
-		"php": ">=5.3.3"
+		"php": ">=5.3.3",
+		"phpbb/phpbb": ">=3.2.0-a1,<3.3.0@dev"
 	},
 	"require-dev": {
 		"phpbb/epv": "dev-master"

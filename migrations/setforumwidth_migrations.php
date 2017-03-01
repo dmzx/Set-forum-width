@@ -16,7 +16,7 @@ class setforumwidth_migrations extends \phpbb\db\migration\migration
 		return array(
 			'add_columns'	=> array(
 				$this->table_prefix . 'users'	=> array(
-					'user_set_width'	=> array('VCHAR', 1152),
+					'user_set_width'	=> array('USINT', 1152),
 				),
 			),
 		);
